@@ -1,0 +1,10 @@
+pandoc: '3.13'
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  rhoMatrix: rhoMatrix.html
+  session: session.html
+last_built: 2026-11-08T04:22Z
+urls:
+  reference: https://ijapesigan.github.io/rhoMatrix//reference
+  article: https://ijapesigan.github.io/rhoMatrix//articles
