@@ -1,0 +1,54 @@
+---
+title: "rhoMatrix: Correlation Matrices from Covariance Matrices"
+author: "Ivan Jacob Agaloos Pesigan"
+output: rmarkdown::html_vignette
+bibliography: "vignettes.bib"
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+nocite: |
+  @RCoreTeam-2026
+vignette: >
+  %\VignetteIndexEntry{rhoMatrix: Correlation Matrices from Covariance Matrices}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Description
+
+Correlation matrices from covariance matrices
+in R [@RCoreTeam-2026].
+Each exported function has an internal version without input checks
+that other projects can copy.
+
+## Installation
+
+You can install the development version of `rhoMatrix` from
+[GitHub](https://github.com/ijapesigan/rhoMatrix) with:
+
+```r
+if (!require("pak")) install.packages("pak")
+pak::pkg_install("ijapesigan/rhoMatrix")
+```
+
+## Example
+
+```{r}
+library(package = "rhoMatrix")
+sigmacap <- stats::cov(x = datasets::mtcars[, c("mpg", "wt", "hp")])
+RhoofSigma(x = sigmacap)
+```
+
+## Documentation
+
+See
+[GitHub Pages](https://ijapesigan.github.io/rhoMatrix)
+for package documentation.
+
+## References
