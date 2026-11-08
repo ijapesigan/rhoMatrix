@@ -1,0 +1,36 @@
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# ------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "rhoMatrix" in publications use:'
+type: software
+license: MIT
+title: 'rhoMatrix: Correlation Matrices from Covariance Matrices'
+version: 0.0.1
+abstract: Correlation matrices from covariance matrices. Each exported function has
+  an internal version without input checks that other projects can copy.
+authors:
+- family-names: Pesigan
+  given-names: Ivan Jacob Agaloos
+  email: r.jeksterslab@gmail.com
+  orcid: https://orcid.org/0000-0003-4818-8420
+preferred-citation:
+  type: manual
+  title: 'rhoMatrix: Correlation Matrices from Covariance Matrices'
+  authors:
+  - family-names: Pesigan
+    given-names: Ivan Jacob Agaloos
+    email: r.jeksterslab@gmail.com
+    orcid: https://orcid.org/0000-0003-4818-8420
+  year: '2026'
+  notes: R package version 0.0.1
+repository-code: https://github.com/ijapesigan/rhoMatrix
+url: https://ijapesigan.github.io/rhoMatrix/
+contact:
+- family-names: Pesigan
+  given-names: Ivan Jacob Agaloos
+  email: r.jeksterslab@gmail.com
+  orcid: https://orcid.org/0000-0003-4818-8420
+

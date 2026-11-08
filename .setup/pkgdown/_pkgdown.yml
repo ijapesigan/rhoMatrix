@@ -1,0 +1,13 @@
+destination: pkgdown
+url: https://ijapesigan.github.io/rhoMatrix/
+
+template:
+  package: rProject
+
+articles:
+- title: Getting Started
+  contents:
+  - rhoMatrix
+- title: Session Information
+  contents:
+  - session
