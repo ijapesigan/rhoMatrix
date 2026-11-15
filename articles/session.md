@@ -30,7 +30,7 @@
 `#> [1] stats     graphics  grDevices utils     datasets  methods   base     `\
 `#> `\
 `#> other attached packages:`\
-`#> [1] rhoMatrix_0.0.1`\
+`#> [1] rhoMatrix_0.0.2`\
 `#> `\
 `#> loaded via a namespace (and not attached):`\
 `#> [1] compiler_4.6.2  cli_3.6.6.9000  tools_4.6.2     otel_0.3.0     `\
@@ -42,7 +42,7 @@
 \
 `utils``::`[`installed.packages`](https://rdrr.io/r/utils/installed.packages.html)`(``)``[``, `[`c`](https://rdrr.io/r/base/c.html)`(``"Package"``, ``"Version"``)``]`\
 `#>                   Package             Version     `\
-`#> rhoMatrix         "rhoMatrix"         "0.0.1"     `\
+`#> rhoMatrix         "rhoMatrix"         "0.0.2"     `\
 `#> rProject          "rProject"          "0.0.71"    `\
 `#> abind             "abind"             "1.4-8"     `\
 `#> Amelia            "Amelia"            "1.8.3"     `\
@@ -467,7 +467,7 @@
     #> Core(s) per socket:                   32
     #> Socket(s):                            2
     #> Stepping:                             8
-    #> CPU(s) scaling MHz:                   78%
+    #> CPU(s) scaling MHz:                   99%
     #> CPU max MHz:                          3400.0000
     #> CPU min MHz:                          800.0000
     #> BogoMIPS:                             4200.00
@@ -504,6 +504,6 @@
 ## Memory
 
     #>                total        used        free      shared  buff/cache   available
-    #> Mem:           251Gi        61Gi        80Gi       5.3Gi       116Gi       189Gi
+    #> Mem:           251Gi        43Gi        69Gi       5.8Gi       145Gi       207Gi
     #> Swap:             0B          0B          0B
-    #> Total:         251Gi        61Gi        80Gi
+    #> Total:         251Gi        43Gi        69Gi
