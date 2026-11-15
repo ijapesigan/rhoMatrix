@@ -5,7 +5,7 @@
 #' where \eqn{\boldsymbol{Q}} is the diagonal matrix
 #' of the inverse standard deviations,
 #' as an elementwise product, without forming \eqn{\boldsymbol{Q}}.
-#' No input checks: see [RhoofSigma()].
+#' No input checks: see `RhoofSigma()`.
 #'
 #' @author Ivan Jacob Agaloos Pesigan
 #'
