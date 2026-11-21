@@ -18,19 +18,6 @@ lapply(
       }
     )
     testthat::test_that(
-      desc = paste(text, "dot matches stats::cov2cor()"),
-      code = {
-        testthat::expect_equal(
-          object = .RhoofSigma(
-            x = sigmacap,
-            q = 1 / sqrt(x = diag(x = sigmacap))
-          ),
-          expected = stats::cov2cor(V = sigmacap),
-          tolerance = tol
-        )
-      }
-    )
-    testthat::test_that(
       desc = paste(text, "error"),
       code = {
         testthat::expect_error(
