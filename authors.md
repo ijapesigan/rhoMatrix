@@ -11,12 +11,12 @@ Source:
 [`inst/CITATION`](https://github.com/ijapesigan/rhoMatrix/blob/main/inst/CITATION)
 
 Pesigan, I. J. A. (2026). rhoMatrix: Correlation Matrices from
-Covariance Matrices. R package version 0.0.2.
+Covariance Matrices. R package version 0.0.3.
 https://github.com/ijapesigan/rhoMatrix
 
 @Manual{,\
   author = {Ivan Jacob Agaloos Pesigan},\
   title = {rhoMatrix: Correlation Matrices from Covariance Matrices},\
   year = {2026},\
-  note = {R package version 0.0.2},\
+  note = {R package version 0.0.3},\
 }

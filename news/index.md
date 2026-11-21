@@ -1,5 +1,13 @@
 # Changelog
 
+## rhoMatrix 0.0.3
+
+### Other changes
+
+- A test file for `.RhoofSigma()` (`test-rhoMatrix-rho-of-sigma-dot.R`),
+  split from the test of
+  [`RhoofSigma()`](https://ijapesigan.github.io/rhoMatrix/reference/RhoofSigma.md).
+
 ## rhoMatrix 0.0.2
 
 ### Patch
